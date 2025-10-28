@@ -29,7 +29,7 @@ if show_bar:
       df,
       x="nation",
       y=f"{medal}",
-      title = f"Medals count ({medal})"
+      title = "Medals count"
   )
 
   fig_bar.update_layout(
@@ -47,7 +47,7 @@ if show_pie:
       df,
       names="Country",
       values=f"{medal}",
-      title = f"Medals count ({medal})"
+      title = "Medals count"
   )
 
   fig_pie.update_layout(
